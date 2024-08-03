@@ -13,7 +13,9 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #000;
+    background-image: url(./img/background-akun.jpg);
+    
+    width: 100%;
 }
 
 .login-box{
@@ -55,7 +57,7 @@ body{
 }
 
 .input-filed:focus{
-    transform: scale(120%);
+    transform: scale(1.2);
 }
 
 .forgot{
@@ -111,10 +113,11 @@ section a{
     -ms-transform: translate(-50%, -50% );
     transform: translate(-50%, -50%);
     cursor: pointer;
+    font-size: 23px;
 }
 
 .submit-btn:hover{
-    background: #190ee3;
+    background: blue;
     transform: scale(1.05,1);
 }
 
@@ -129,7 +132,11 @@ section a{
     font-weight: 600;
 }
 
-.sign-up-link p{
+.sign-up-link a{
     color: #fff;
+    text-decoration: none;
+}
 
+.sign-up-link a:hover{
+    color: blue;
 }
