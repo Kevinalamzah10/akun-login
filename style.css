@@ -13,10 +13,14 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url(./img/background-akun.jpg);
     background-position: left;
+    background-image: url(./img/background-akun.jpg);
     height: auto;
     width: 100%;
+}
+
+.daftar {
+    background-image: url(./img/background-daftar.jpg);
 }
 
 .login-box{
@@ -37,6 +41,18 @@ body{
     color: #fff;
     font-size: 40px;
     font-weight: 600;
+}
+
+.akun{
+    color: white;
+}
+
+.akun1{
+    color: white;
+}
+
+.akun a:hover{
+    color: green;
 }
 
 .login-box .input-filed{
