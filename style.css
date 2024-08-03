@@ -14,7 +14,8 @@ body{
     align-items: center;
     min-height: 100vh;
     background-image: url(./img/background-akun.jpg);
-    
+    background-position: left;
+    height: auto;
     width: 100%;
 }
 
