@@ -44,15 +44,15 @@ body{
 }
 
 .akun{
-    color: white;
+    color: #fff;
 }
 
 .akun1{
-    color: white;
+    color: #4000ff;
 }
 
 .akun a:hover{
-    color: green;
+    color: #fff;
 }
 
 .login-box .input-filed{
@@ -78,9 +78,9 @@ body{
 }
 
 .forgot{
-    display: flex;
+    display: left;
     justify-content: space-around;
-    margin-bottom: 35px;
+    margin-bottom: 40px;
 }
 
 section{
@@ -90,8 +90,9 @@ section{
     color: #fff;
 }
 
+
 #check{
-    margin-right: 15px;
+    margin-right: 20px;
 }
 
 a{
@@ -114,11 +115,20 @@ section a{
 .submit-btn{
     width: 100%;
     height: 65px;
-    background: #5063f2;
+    background: #4000ff;
     border: none;
     border-radius: 30px;
     cursor: pointer;
     transition: .3s;
+}
+
+.submit-btn a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.submit-btn a:hover{
+    color: #fff;
 }
 
 .input-submit label{
@@ -134,7 +144,7 @@ section a{
 }
 
 .submit-btn:hover{
-    background: blue;
+    background: #4000ff;
     transform: scale(1.05,1);
 }
 
