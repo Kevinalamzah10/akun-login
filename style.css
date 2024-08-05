@@ -48,11 +48,11 @@ body{
 }
 
 .akun1{
-    color: #4000ff;
+    color: white;
 }
 
 .akun a:hover{
-    color: #fff;
+    color: rgb(24, 221, 235);
 }
 
 .login-box .input-filed{
@@ -92,16 +92,16 @@ section{
 
 
 #check{
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 a{
     text-decoration: none;
+
 }
 
 a:hover{
-    text-decoration: underline;
-    color: #4000ff;
+    color: rgb(24, 221, 235);
 }
 
 section a{
@@ -144,7 +144,7 @@ section a{
 }
 
 .submit-btn:hover{
-    background: #4000ff;
+    background: rgb(24, 221, 235);
     transform: scale(1.05,1);
 }
 
@@ -152,6 +152,7 @@ section a{
     text-align: center;
     font-size: 15px;
     margin-top: 20px;
+    text-transform: capitalize;
 }
 
 .sign-up-link a{
@@ -165,5 +166,5 @@ section a{
 }
 
 .sign-up-link a:hover{
-    color: blue;
+    color: rgb(24, 221, 235);
 }
