@@ -19,6 +19,20 @@ body{
     width: 100%;
 }
 
+.awal{
+    color: #fff;
+    display: flex;
+    margin: 50px;
+    padding: 0;
+    font: optional;
+}
+
+.awal-login{
+   align-items: flex-start;
+    margin: 10px;
+    
+}
+
 .daftar {
     background-image: url(./img/background-daftar.jpg);
 }
@@ -29,12 +43,13 @@ body{
     flex-direction: column;
     width: 440px;
     height: 400px;
-    padding: 30px;
+    padding: 10px;
+    margin: 10px;
 }
 
 .login-header{
     text-align: center;
-    margin: 40px 0 40px 0;
+    margin: 15px;
 }
 
 .login-header header{
@@ -61,7 +76,7 @@ body{
     font-size: 17px;
     padding: 0 25px;
     margin-bottom: 25px;
-    border-radius: 30px;
+    border-radius: 10px;
     border: none;
     box-shadow: 0px 5px 10px rgba( 91, 29, 230, 0.05);
     outline: none;
@@ -78,7 +93,7 @@ body{
 }
 
 .forgot{
-    display: left;
+    display: flex;
     justify-content: space-around;
     margin-bottom: 40px;
 }
@@ -92,7 +107,7 @@ section{
 
 
 #check{
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 a{
@@ -108,8 +123,53 @@ section a{
     color: #fff;
 }
 
+.berikutnya{
+    position:relative;
+    border-radius: 20px;
+}
+
+.berikutnya label{
+    font-size: 20px;
+}
+
+.berikutnya a{
+    text-decoration: none;
+}
+
+.berikutnya a:hover{
+    color: #4000ff;
+}
+
+.submit-br{
+    position: absolute;
+    background-color: #fff;
+    margin-top: 70px;
+    right: 20px;
+    width: 120px;
+    height: 30px;
+    border-radius: 4px;
+}
+
+.submit-br .label{
+    color: #fff;
+}
+
+.nomor{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
 .input-submit{
     position:relative;
+}
+
+.input-submit a{
+    text-decoration: none;
+}
+
+.input-submit a:hover{
+    color: #fff;
 }
 
 .submit-btn{
@@ -117,9 +177,9 @@ section a{
     height: 65px;
     background: #4000ff;
     border: none;
-    border-radius: 30px;
+    border-radius: 10px;
     cursor: pointer;
-    transition: .3s;
+    transition: .2s;
 }
 
 .submit-btn a{
