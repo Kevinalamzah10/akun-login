@@ -137,12 +137,12 @@ section a{
 }
 
 .berikutnya a:hover{
-    color: #4000ff;
+    color: #fff;
 }
 
 .submit-br{
     position: absolute;
-    background-color: #fff;
+    background-color: #4000ff;
     margin-top: 70px;
     right: 20px;
     width: 120px;
@@ -150,8 +150,22 @@ section a{
     border-radius: 4px;
 }
 
+.submit-br a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.submit-br a:hover{
+    color: #fff;
+}
+
 .submit-br .label{
     color: #fff;
+}
+
+.submit-br:hover{
+    background: rgb(32, 32, 32);
+    transform: scale(1.05,1);
 }
 
 .nomor{
